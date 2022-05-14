@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/shop.css">
+</head>
+
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <header>
+        <div class="top">
+            <div class="left">
+                <a href="./account.html"><span><i class="fa-solid fa-user"></i>My Account</span>
+                </a>
+                <a href="./orders.html"><span><i class="fa-solid fa-bag-shopping"></i>Orders</span>
+                </a>
+            </div>
+            <div class="right">
+                <a href="./checkorder.html"><span><i class="fa-solid fa-truck"></i>order tracking</span>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="logo">
+                <span class="blue">online <span class="bink">store</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Offer</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <a href="./login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                <a href="./fav.html"><i class="fa-regular fa-heart"></i></a>
+                <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </ul>
+            <ul class="nav-icons">
+                <a href="./login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                <a href="./fav.html"><i class="fa-regular fa-heart"></i></a>
+                <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#"><i class="fa-solid fa-bars" id="menubtn"></i></a>
+            </ul>
+            <div id="sidenav">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="./shop.html">shop</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="cart">
+        <div class="container">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./image/a86fff8a-b9aa-480b-917e-19c9a029fcca.webp" alt="img">
+                            <div>
+                                <p>React Infinity Run Flyknit 2
+                                </p>
+                                <small>Price: 450 EGP</small>
+                                <br>
+                                <a href="#">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> 450 EGP</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./image/a86fff8a-b9aa-480b-917e-19c9a029fcca.webp" alt="img">
+                            <div>
+                                <p>React Infinity Run Flyknit 2
+                                </p>
+                                <small>Price: 450 EGP</small>
+                                <br>
+                                <a href="#">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> 450 EGP</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./image/a86fff8a-b9aa-480b-917e-19c9a029fcca.webp" alt="img">
+                            <div>
+                                <p>React Infinity Run Flyknit 2
+                                </p>
+                                <small>Price: 450 EGP</small>
+                                <br>
+                                <a href="#">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> 450 EGP</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="./image/a86fff8a-b9aa-480b-917e-19c9a029fcca.webp" alt="img">
+                            <div>
+                                <p>React Infinity Run Flyknit 2
+                                </p>
+                                <small>Price: 450 EGP</small>
+                                <br>
+                                <a href="#">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td> 450 EGP</td>
+                </tr>
+            </table>
+            <div class="total">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>1000 EGP</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>50 EGP</td>
+                    </tr>
+                    <tr>
+                        <td>Coupon: free</td>
+                        <td>Free shipping coupon</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>50 EGP</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="button">
+                <div class="btn">
+                    <input type="text">
+                    <button class="apply"><a href="#">Apply Coupon</a></button>
+                </div>
+                <div class="check">
+                    <a href="./check.html"><button>Checkout</button></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer ">
+        <div class="container ">
+            <div class="box-4 ">
+                <h3>online Store</h3>
+                <ul class="social ">
+                    <li>
+                        <a href="# " class="facebook ">
+                            <i class="fab fa-facebook-f "></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# " class="twitter ">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="# " class="youtube ">
+                            <i class="fab fa-youtube "></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text ">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste
+                    aspernatur
+                </p>
+            </div>
+            <div class="box-4 ">
+                <ul class="links ">
+                    <li><a href="./index.html ">Home</a></li>
+                    <li><a href="# ">Offer</a></li>
+                    <li><a href="# ">Shop</a></li>
+                    <li><a href="#new ">New Arrivals</a></li>
+                    <li><a href="# ">Contact</a></li>
+                </ul>
+            </div>
+            <div class="box-4 ">
+                <div class="line ">
+                    <i class="fas fa-map-marker-alt fa-fw "></i>
+                    <div class="info ">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+                </div>
+                <div class="line ">
+                    <i class="far fa-clock fa-fw "></i>
+                    <div class="info ">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line ">
+                    <i class="fas fa-phone-volume fa-fw "></i>
+                    <div class="info ">
+                        <span>+20123456789</span>
+                        <span>+20198765432</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright "> © 2022 All rights reserved , coded with ❤️ by EA </p>
+    </div>
+<script src="./main.js"></script>
+
+</body>
+
+</html>
